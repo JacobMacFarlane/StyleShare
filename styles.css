@@ -1,0 +1,98 @@
+*  
+{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;  
+    /* border: solid 2px red; */
+}
+
+
+body {
+    background-color: darkslategrey;
+}
+
+nav {
+    background-color: antiquewhite;
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapper {
+    width: 400px;
+    height: 800px;
+}
+
+.collection {
+    height: 800px;
+    width: 400px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#outfit {
+    height: 800px;
+    width: 400px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hatCarosouel {
+    display:flex;
+    overflow-x: scroll
+}
+
+.hatItem > img{
+    height: 100px;
+    width: 100px
+}
+.jacketCarosouel {
+    display:flex;
+    overflow-x: scroll
+}
+
+.jacketItem > img{
+    height: 100px;
+    width: 100px
+}
+.shirtCarosouel {
+    display:flex;
+    overflow-x: scroll
+}
+
+.shirtItem > img{
+    height: 100px;
+    width: 100px
+}
+.pantCarosouel {
+    display:flex;
+    overflow-x: scroll
+}
+
+.pantItem > img{
+    height: 100px;
+    width: 100px
+}
+.shoeCarosouel {
+    display:flex;
+    overflow-x: scroll
+}
+
+.shoeItem > img{
+    height: 100px;
+    width: 100px
+}
+.jewleryCarosouel {
+    display:flex;
+    overflow-x: scroll
+}
+
+.jewleryItem > img{
+    height: 100px;
+    width: 100px
+}
